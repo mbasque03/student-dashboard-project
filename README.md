@@ -22,4 +22,4 @@ Run the following command to execute the unit tests:
 
 ### `npm test`
 
-
+If prompted, press "a" to run all tests
