@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.student-class {
+  line-height: 8px;
+}
+
+.add-student-label {
+  display: inline-block
+}
+
+.add-student-input {
+  /* display: inline-block;
+  margin: 10px 10px 10px 10px;
+  padding: 10% */
+}
+
+.advance-button {
+  float: right
+}
+
+.modify-student-button {
+  margin-top: 1%
+}
+.modify-student-input {
+  /*width: 75% !important*/
+}
+
+.modify-student-label {
+  margin-top: 1%
+}
+
+.modify-classes-text {
+  margin-top: 50%;
+  margin-bottom: 50%
+}
+
