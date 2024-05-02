@@ -17,8 +17,8 @@ export const ModifyStudentForm: React.FunctionComponent<ModifyStudentFormProps> 
     const handleInputChange = (event: any) => {
         const {name, value} = event?.target;
         if (name === 'classList') {
-            // Split classes by comma and strip off whitespace.
-            const classesArray = value.split(/[ ,]+/)
+            // Split classes by comma and strip off leading whitespace.
+            const classesArray = value.split(",").map((item: string) => item.trimStart())
             // Store each class as an array element
             setFormData({...formData, 'classList': classesArray})
         } else {
